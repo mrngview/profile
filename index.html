@@ -13,9 +13,41 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle" class="icon-size"></i>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#background">
+            <i class="fa fa-user" class="icon-size"></i>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#mysports">
+            <i class="fa fa-angellist" class="icon-size"></i>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#about">
+            <i class="fa fa-life-ring" class="icon-size"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div id="content">
     <div class="container">
 
-      <div class="card text-center">
+      <div class="card text-center" id="summary">
         <img src="./images/Profile.jpg" alt="Profile picture" id="img-profile" class="img-circle">
       <h1>Adrien Dubois</h1>
 
@@ -30,74 +62,75 @@
       Future manager of a brewery pub, Le Caberdouche, in the city center of Brussels, I am currently working on this great and motivating project with my partners and our business associates. Opening planned for the second semester of 2016.
       </p>
       </div>
-      <div class="card text-center">
+      <div id="spacing" class="card text-center">
         <ul>
+          <li class="inline-img">
+            <a href="https://www.flickr.com/photos/jakadih" target="_blank">
+            <i class="fa fa-flickr"></i>
+            </a>
+          </li>
           <li class="inline-img">
             <a href="https://www.facebook.com/profile.php?id=558992681" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
             </li>
           <li class="inline-img">
-            <a href="https://twitter.com/mrngview">
-            <i class="fa fa-twitter" target="_blank"></i>
+            <a href="https://twitter.com/mrngview" target="_blank">
+            <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li class="inline-img">
-            <a href="https://be.linkedin.com/in/adrien-dubois-a374a256">
-            <i class="fa fa-linkedin" target="_blank"></i>
-            </a>
-          </li>
-          <li class="inline-img">
-            <a href="https://www.flickr.com/photos/jakadih">
-            <i class="fa fa-flickr" target="_blank"></i>
+            <a href="https://be.linkedin.com/in/adrien-dubois-a374a256" target="_blank">
+            <i class="fa fa-linkedin"></i>
             </a>
           </li>
         </ul>
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="background">
         <ul>
           <li class="text-center">
-          15/02/2016–15/04/2016<br>
-          Currently in training at Le Wagon Brussels (See EDUCATION AND TRAINING)
+            <i>15/02/2016–15/04/2016</i><br>
+            Currently in training at Le Wagon Brussels (See EDUCATION AND TRAINING)
           </li><br>
           <li class="text-center">
-          06/01/2014–29/02/2016<br>
-          IT Consultant - PC Support (Security Cleared)
+            <i>06/01/2014–29/02/2016</i><br>
+            IT Consultant - PC Support (Security Cleared)
           </li><br>
           <li class="text-center">
-          01/01/2012–08/12/2013<br>
-          IT Consultant - 2nd line support
+            <i>01/01/2012–08/12/2013</i><br>
+            IT Consultant - 2nd line support
           </li><br>
           <li class="text-center">
-          01/04/2008–31/12/2011<br>
-          IT Consultant - 1st line support (2nd line when required)
+            <i>01/04/2008–31/12/2011</i><br>
+            IT Consultant - 1st line support (2nd line when required)
           </li><br>
         </ul>
       </div>
-      <div class="card text-center">
+      <div class="card text-center"  id="mysports">
         <h2>My Sports</h2>
           <ul>
             <li class="text-center">
               <p>Football</p>
-              <img src="./images/Football.jpg" alt="Football">
+              <img src="./images/Football.jpg" alt="Football" class="shadow-pics"><br>
             </li>
             <li class="text-center">
               <p>Motorcycling</p>
-              <img src="./images/Motorcycling.jpg" alt="Motorcycling">
+              <img src="./images/Motorcycling.jpg" alt="Motorcycling" class="shadow-pics"><br>
             </li>
             <li class="text-center">
               <p>Crossfit</p>
-              <img src="./images/Crossfit.jpg" alt="Crossfit">
+              <img src="./images/Crossfit.jpg" alt="Crossfit" class="shadow-pics"><br>
             </li>
             <li class="text-center">
-              <p>Other</p>
-              <img src="./images/Running.jpg" alt="Other">
+              <p>Any other</p>
+              <img src="./images/Running.jpg" alt="Other" class="shadow-pics">
             </li>
           </ul>
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="about">
         <h2>About this page</h2>
         This page has been coded during the <a href="http://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>
       </div>
+    </div>
   </body>
 </html>

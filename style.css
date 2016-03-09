@@ -6,19 +6,20 @@ img {
 }
 
 body {
-    background: #EBEBEB;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 24%,rgba(225,225,225,1) 47%,rgba(246,246,246,1) 100%);
     font-family: 'Open Sans';
     font-weight: 400;
     color: #7d7d7d;
 }
 
 h1 {
-    color: #DD556C;
-    font-size: 22px;
+    color: #7d7d7d;
+    font-size: 21px;
 }
 
 h2 {
     font-size: 18px;
+    color: #43609C;
 }
 
 a {
@@ -46,15 +47,6 @@ a:hover {
     text-align: center;
   }
 
-#img-profile {
-    width: auto;
-    max-width: 300px;
-    height: auto;
-    max-height: 300px;
-    border: 3px solid #cccccc;
-    box-shadow: 15px 5px 50px;
-}
-
 .img-circle {
     border-radius: 50%;
 }
@@ -68,4 +60,50 @@ a:hover {
   display: inline;
   font-size: 50px;
 }
-/* Here goes your CSS */
+
+.shadow-pics {
+  box-shadow: 10px 10px 5px ;
+  border-radius: 5px;
+}
+
+.icon-size{
+  width: 50px;
+  height: 50px;
+}
+
+#img-profile {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    border: 3px solid #cccccc;
+    box-shadow: 15px 5px 50px;
+}
+
+#spacing {
+  word-spacing: 50px;
+}
+
+#sidebar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 50;
+}
